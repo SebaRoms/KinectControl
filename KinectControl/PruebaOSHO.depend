@@ -1,0 +1,193 @@
+# depslib dependency file v1.0
+1355169645 source:/home/sebaroms/Escritorio/NiHandTracker/NiHandTracker.cpp
+	"NiHandTracker.h"
+	<cassert>
+	<iostream>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1354739364 /home/sebaroms/Escritorio/NiHandTracker/NiHandTracker.h
+	<XnCppWrapper.h>
+	"NiTrailHistory.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+
+1350945305 /home/sebaroms/Escritorio/NiHandTracker/NiTrailHistory.h
+	<XnCppWrapper.h>
+	<XnList.h>
+	<XnHash.h>
+	<cassert>
+
+1357393669 source:/home/sebaroms/Escritorio/NiHandTracker/NiHandViewer.cpp
+	"NiHandViewer.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1350945293 /home/sebaroms/Escritorio/NiHandTracker/NiHandViewer.h
+	"NiSimpleViewer.h"
+	"NiHandTracker.h"
+
+1350945299 /home/sebaroms/Escritorio/NiHandTracker/NiSimpleViewer.h
+	<XnCppWrapper.h>
+
+1354739038 source:/home/sebaroms/Escritorio/NiHandTracker/NiSimpleViewer.cpp
+	"NiSimpleViewer.h"
+	<XnOS.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<cassert>
+
+1350945301 source:/home/sebaroms/Escritorio/NiHandTracker/NiTrailHistory.cpp
+	"NiTrailHistory.h"
+
+1355169018 source:/home/sebaroms/Escritorio/NiHandTracker/main.cpp
+	"NiHandViewer.h"
+
+1350353893 /usr/include/ni/XnCppWrapper.h
+	<XnOpenNI.h>
+	<XnCodecIDs.h>
+
+1350353893 /usr/include/ni/XnOpenNI.h
+	"XnTypes.h"
+	"XnContext.h"
+	"XnLicensing.h"
+	"XnUtils.h"
+	"XnPrdNodeInfo.h"
+	"XnQueries.h"
+	"XnPrdNode.h"
+	"XnEnumerationErrors.h"
+	"XnVersion.h"
+	"XnStatusCodes.h"
+	"XnStatus.h"
+
+1350353893 /usr/include/ni/XnTypes.h
+	<XnStatus.h>
+	<XnOS.h>
+
+1350353893 /usr/include/ni/XnStatus.h
+	"XnPlatform.h"
+
+1350353893 /usr/include/ni/XnPlatform.h
+	"Win32/XnPlatformWin32.h"
+	"Android-Arm/XnPlatformAndroid-Arm.h"
+	"Linux-x86/XnPlatformLinux-x86.h"
+	"Linux-Arm/XnPlatformLinux-Arm.h"
+	"ARC/XnPlatformARC.h"
+	"MacOSX/XnPlatformMacOSX.h"
+
+1350353893 /usr/include/ni/Linux-x86/XnPlatformLinux-x86.h
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+
+1350353893 /usr/include/ni/Linux-Arm/XnPlatformLinux-Arm.h
+	"../Linux-x86/XnPlatformLinux-x86.h"
+
+1350353893 /usr/include/ni/MacOSX/XnPlatformMacOSX.h
+	"../Linux-x86/XnPlatformLinux-x86.h"
+	<sys/time.h>
+
+1350353893 /usr/include/ni/XnOS.h
+	"XnPlatform.h"
+	"XnMacros.h"
+	"XnStatusCodes.h"
+	"XnOSStrings.h"
+	"XnOSMemory.h"
+	"Win32/XnOSWin32.h"
+	"Linux-x86/XnOSLinux-x86.h"
+	"ARC/XnOSARC.h"
+	<new>
+
+1350353893 /usr/include/ni/XnMacros.h
+	"XnStatusCodes.h"
+
+1350353893 /usr/include/ni/XnStatusCodes.h
+	"XnStatus.h"
+
+1350353893 /usr/include/ni/XnOSStrings.h
+	"XnPlatform.h"
+	<stdarg.h>
+
+1350353893 /usr/include/ni/XnOSMemory.h
+	"XnPlatform.h"
+
+1350353893 /usr/include/ni/Linux-x86/XnOSLinux-x86.h
+	<sys/types.h>
+	<stdarg.h>
+	<time.h>
+	<pthread.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1350353893 /usr/include/ni/XnContext.h
+	<XnTypes.h>
+	<XnQueries.h>
+	<XnPrdNodeInfoList.h>
+
+1350353893 /usr/include/ni/XnQueries.h
+	"XnTypes.h"
+
+1350353893 /usr/include/ni/XnPrdNodeInfoList.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnLicensing.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnUtils.h
+	<XnTypes.h>
+	<XnModuleInterface.h>
+
+1350353893 /usr/include/ni/XnModuleInterface.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnPrdNodeInfo.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnPrdNode.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnEnumerationErrors.h
+	<XnTypes.h>
+
+1350353893 /usr/include/ni/XnVersion.h
+	"XnPlatform.h"
+
+1350353893 /usr/include/ni/XnCodecIDs.h
+	"XnTypes.h"
+
+1350353893 /usr/include/ni/XnList.h
+	<XnDataTypes.h>
+	<IXnNodeAllocator.h>
+	<XnNodeAllocator.h>
+	<XnNode.h>
+	<XnStatusCodes.h>
+
+1350353893 /usr/include/ni/XnDataTypes.h
+	"XnOS.h"
+
+1350353893 /usr/include/ni/IXnNodeAllocator.h
+
+1350353893 /usr/include/ni/XnNodeAllocator.h
+	<IXnNodeAllocator.h>
+	<XnNode.h>
+
+1350353893 /usr/include/ni/XnNode.h
+	<XnDataTypes.h>
+	<XnBaseNode.h>
+
+1350353893 /usr/include/ni/XnBaseNode.h
+	<XnDataTypes.h>
+
+1350353893 /usr/include/ni/XnHash.h
+	"XnList.h"
+

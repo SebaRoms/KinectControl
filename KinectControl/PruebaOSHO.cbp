@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KinectControl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PruebaOSHO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DUSE_GLUT" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PruebaOSHO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="/usr/include/ni" />
+			<Add directory="/usr/include/nite" />
+		</Compiler>
+		<Linker>
+			<Add library="glut" />
+			<Add library="OpenNI" />
+			<Add library="X11" />
+		</Linker>
+		<Unit filename="../../NiHandTracker/NiHandTracker.cpp" />
+		<Unit filename="../../NiHandTracker/NiHandTracker.h" />
+		<Unit filename="../../NiHandTracker/NiHandViewer.cpp" />
+		<Unit filename="../../NiHandTracker/NiHandViewer.h" />
+		<Unit filename="../../NiHandTracker/NiSimpleViewer.cpp" />
+		<Unit filename="../../NiHandTracker/NiSimpleViewer.h" />
+		<Unit filename="../../NiHandTracker/NiTrailHistory.cpp" />
+		<Unit filename="../../NiHandTracker/NiTrailHistory.h" />
+		<Unit filename="../../NiHandTracker/main.cpp" />
+		<Unit filename="SamplesConfig.xml" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

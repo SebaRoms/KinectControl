@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../NiHandTracker/NiHandTracker.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3541" topLine="69" />
+	</File>
+	<File name="../../NiHandTracker/NiHandTracker.h" open="1" top="0" tabpos="4">
+		<Cursor position="858" topLine="29" />
+	</File>
+	<File name="../../NiHandTracker/NiHandViewer.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="1719" topLine="7" />
+	</File>
+	<File name="../../NiHandTracker/NiSimpleViewer.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="702" topLine="237" />
+	</File>
+	<File name="../../NiHandTracker/NiTrailHistory.h" open="0" top="0" tabpos="0">
+		<Cursor position="14" topLine="0" />
+	</File>
+	<File name="../../NiHandTracker/main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1831" topLine="3" />
+	</File>
+</CodeBlocks_layout_file>
